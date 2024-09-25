@@ -24,10 +24,10 @@ pipeline {
                     withSonarQubeEnv('Sonar-Scanner') {
                         sh """
                             ${scannerHome}/bin/sonar-scanner \
-                            -Dsonar.projectKey=microservice-ratingservice \
+                            -Dsonar.projectKey=microservice-ratingervice \
                             -Dsonar.sources=. \
                             -Dsonar.host.url=https://sonarqube.dhimalu.xyz \
-                            -Dsonar.login=sqp_934b83360cc3b9fadb0fc65d806bd551c495056f
+                            -Dsonar.login=sqp_0be865fe76cff05d9326cff4146b23eefd38c113
                         """
                     }
                 }
