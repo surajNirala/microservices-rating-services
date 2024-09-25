@@ -5,7 +5,7 @@ pipeline {
         DOCKER_HUB_REPO = 'snirala1995/rating_services'
         DOCKER_IMAGE_TAG = "${DOCKER_HUB_REPO}:${env.BUILD_NUMBER}"
         CONTAINER_NAME = 'rating_services' // Name for your Docker container
-        CONTAINER_PORT = '9092' // Port inside the Docker container
+        CONTAINER_PORT = '9092' // Port Inside the Docker container
         RATING_SERVICE_ENV = credentials('RATING_SERVICE_ENV') // For secret file
         SNIRALA_DOCKERHUB_CREDENTIAL = 'snirala-dockerhub-credentials'
         SERVER_1 = '34.131.139.0' 
