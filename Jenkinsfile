@@ -11,7 +11,7 @@ pipeline {
         SERVER_1 = '34.131.139.0' 
         CREDENTIALS_SERVER_2 = 'credentials-server-2'
         HOST_PORT = '9092'
-        SONARQUBE_KEY = 'sqp_934b83360cc3b9fadb0fc65d806bd551c495056f' 
+        SONARQUBE_KEY = 'sqp_0be865fe76cff05d9326cff4146b23eefd38c113' 
     }
 
     stages {
